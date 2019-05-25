@@ -1,7 +1,7 @@
-# Github
+# README #
 
-Este é um repositório exemplo para eu aprender a usar o git.
+Este é um repositório exemplo para exercitar git e desenvolvimento web.
 
-Abaixo uma lista de comandos para consulta quando necessário.
+O projeto aqui desenvolvido corresponde a página local da maratona de computação 2019 para o oeste do pará.
 
-A itençãoa aqui é testar coisas.
+Minha intenção no final é hospedá-la no github sites de um modo que ainda desconheço.
