@@ -1,11 +1,34 @@
 <!DOCTYPE html>
-<html style="background-color: #efefef">
+<html>
 
 <head>
 
-  <style>
+  <style type="text/css">
     @import url('https://fonts.googleapis.com/css?family=Poppins:300&display=swap');
     @import url('https://fonts.googleapis.com/css?family=Sintony&display=swap');
+
+    body,
+    div {
+      background-color: #efefef"
+
+    }
+    img{
+      height: 350px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: 'Sintony', sans-serif;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    p {
+      font-family: 'Poppins', sans-serif;
+      text-align: justify;
+      text-justify: inter-word;
+    }
   </style>
 
   <meta charset="utf-8">
@@ -32,8 +55,6 @@
 
   <!-- Barra de Navegação -->
 
-  <!-- Barra de Navegação -->
-
   <nav class="navbar navbar-expand-lg navbar-light "
     style="background-color: #caebf2; font-family: 'Sintony',sans-serif">
     <a class="navbar-brand navbar-text" href="index.html"><b>Maratona 2019</b></a>
@@ -53,66 +74,85 @@
           <a class="nav-link" href="datas.html">Datas Importantes</a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" href="https://www.facebook.com/maratonaorixi/" target="_blank"><img style="height: 25px; width:25px" src="imagens/icon.png"/></a>
-          </li>
+          <a class="nav-link" href="https://www.facebook.com/maratonaorixi/" target="_blank"><img
+              style="height: 25px; width:25px" src="imagens/icon.png" /></a>
+        </li>
       </ul>
     </div>
   </nav>
+  <!--FIM NAVBAR---------------------------------------------------------------------->
+  <br>
 
-  <div class="p-5">
+  <div class="container">
+    <!--CONTEINER-->
 
-    <!-- Carousel Slide -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
-      style="font-family: 'Sintony', sans-serif">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="mx-auto d-block w-80" src="imagens/1.jpg"
-            alt="Foto do campus da UFOPA em Oriximiná visto do alto.">
-        </div>
-        <div class="carousel-item">
-          <img class="mx-auto d-block w-80" src="imagens/5.jpg"
-            alt="Foto da Praça Santo Antônio em Oriximiná, com a estatua de Santo Antônio em primeiro plano e igreja ao fundo.">
-        </div>
-        <div class="carousel-item">
-          <img class="mx-auto d-block w-80" src="imagens/2.jpg"
-            alt="Foto do campus da UFOPA em Oriximiná visto em diagonal.">
-        </div>
+    <div class="row">
+      <div class="col-sm">
+        <!--Coluna 1-->
 
+        <div>
+          <!--CARROSSEL-->
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img  src="imagens/1.jpg"
+                  alt="Foto do campus da UFOPA em Oriximiná visto do alto.">
+              </div>
+              <div class="carousel-item">
+                <img  src="imagens/5.jpg"
+                  alt="Foto da Praça Santo Antônio em Oriximiná, com a estatua de Santo Antônio em primeiro plano e igreja ao fundo.">
+              </div>
+              <div class="carousel-item">
+                <img  src="imagens/2.jpg"
+                  alt="Foto do campus da UFOPA em Oriximiná visto em diagonal.">
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div>
+        <!--FIM CARROSSEL-->
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Anterior</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Próximo</span>
-      </a>
-    </div>
+      <!--FIM coluna 1-->
 
-    <br>
-    <div style="font-family: 'Poppins',sans-serif" class="text-justify">
+      <div class="col-sm">
+        <!--Coluna 2-->
 
-      <h2> Maratona de Programação 2019 - Oeste do Pará</h2>
+        <main>
+          <!---CONTEÚDO PRINCIPAL DA PÁGINA-->
 
-      <p>A Maratona de Programação é um evento da Sociedade Brasileira de Computação que existe desde o ano de 1996. A
-        Maratona nasceu das competições regionais classificatórias para as finais mundiais do concurso de programação, o
-        International Collegiate Programming Contest, e é parte da regional sulamericana do concurso. Neste ano ocorre a
-        24a. edição da Maratona.</p>
+          <h2> Maratona de Programação 2019 - Oeste do Pará</h2>
 
-      <p> A sede na região Oeste do Pará será a UFOPA (Universidade Federal do Oeste do Pará), campus de Oriximiná, e
-        ocorrerá no dia 14 de setembro. </p>
+          <p>A Maratona de Programação é um evento da Sociedade Brasileira de Computação que existe desde o ano de 1996.
+            A Maratona nasceu das competições regionais classificatórias para as finais mundiais do concurso de
+            programação, o International Collegiate Programming Contest, e é parte da regional sulamericana do concurso.
+            Neste ano ocorre a 24a. edição da Maratona.</p>
 
-      <p> Essa é uma página local, para informações apronfundadas consulte o <a
-          href="http://maratona.ime.usp.br/index19.html"> site oficial da maratona </a>. </p>
+          <p> A sede na região Oeste do Pará será a UFOPA (Universidade Federal do Oeste do Pará), campus de Oriximiná,
+            e ocorrerá no dia 14 de setembro. </p>
 
+          <p> Essa é uma página local, para informações apronfundadas consulte o <a
+              href="http://maratona.ime.usp.br/index19.html"> site oficial da maratona </a>. </p>
+
+        </main>
+        <!--FIM CONTEÚDO PRINCIPAL DA PÁGINA-->
+      </div>
+      <!--Fim coluna 2-->
     </div>
 
   </div>
+  <!--FIM CONTEINER-->
 
 </body>
 
