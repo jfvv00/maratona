@@ -1,15 +1,45 @@
 <!DOCTYPE html>
-<html style="background-color: #efefef">
+<html>
 
 <head>
 
-  <style>
+  <style type="text/css">
     @import url('https://fonts.googleapis.com/css?family=Poppins:300&display=swap');
     @import url('https://fonts.googleapis.com/css?family=Sintony&display=swap');
+
+    body,
+    div {
+      background-color: #efefef"
+
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: 'Sintony', sans-serif;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    p {
+      font-family: 'Poppins', sans-serif;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    nav {
+      background-color: #caebf2
+    }
+
+    main {
+      padding: 35px;
+    }
   </style>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Página da Maratona Programação, 2019 - Oeste do Pará">
+  <meta name="keywords" content="Maratona de Programação, Oeste do Pará, Oriximiná, Programação">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -30,10 +60,8 @@
 
 <body>
 
-  <!-- Barra de Navegação -->
-
-  <nav class="navbar navbar-expand-lg navbar-light "
-    style="background-color: #caebf2; font-family: 'Sintony',sans-serif">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- NAVBAR -->
     <a class="navbar-brand navbar-text" href="index.html"><b>Maratona 2019</b></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,92 +79,103 @@
           <a class="nav-link" href="datas.html">Datas Importantes</a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" href="https://www.facebook.com/maratonaorixi/" target="_blank"><img style="height: 25px; width:25px" src="imagens/icon.png"/></a>
-          </li>
+          <a class="nav-link" href="https://www.facebook.com/maratonaorixi/" target="_blank"><img
+              style="height: 25px; width:25px" src="imagens/icon.png" alt="Link para página do facebook." /></a>
+        </li>
       </ul>
     </div>
   </nav>
+  <!--FIM NAVBAR-->
 
+  <main>
+    <h2>Datas Importantes</h2>
+    <p>Não perca o prazo e fique de olho nas datas! ;)</p>
 
-  <div class="p-5">
-    <h2 style="font-family: 'Sintony',sans-serif">Datas Importantes</h2>
-    <div style="font-family: 'Poppins',sans-serif" class="text-justify">
-      <p>Não perca o prazo e fique de olho nas datas! ;)</p>
-
-      <div class="card">
-
-        <div class="card-header">
-          <h3>06 de maio</h3>
-        </div>
-        <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p>As instituições podem se candidatar para sediar a primeira fase da Maratona de Programação. Instituições
-              interessadas devem preencher o formulário de inscrição.</p>
-          </blockquote>
-        </div>
-
-        <div class="card-header">
-          <h3>20 de maio</h3>
-        </div>
-        <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p>Estarão definidas sedes da Primeira fase da XXIV Maratona de Programação, assim como as regiões
-              geográficas
-              atendidas por cada sede.</p>
-          </blockquote>
-        </div>
-
-        <div class="card-header">
-          <h3>22 de julho</h3>
-        </div>
-        <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p>Prazo para pagamento com maior desconto da taxa de inscrição na Maratona (veja a página das inscrições
-              para
-              mais detalhes).</p>
-          </blockquote>
-        </div>
-
-        <div class="card-header">
-          <h3>23 agosto</h3>
-        </div>
-        <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p>O coach deverá completar a inscrição do time, completando os seguintes passos: providenciar o pagamento
-              da
-              taxa de inscrição do time e preencher as informação dos times no site do ICPC.</p>
-          </blockquote>
-        </div>
-
-        <div class="card-header">
-          <h3>14 de setembro</h3>
-        </div>
-        <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p>Primeira Fase da XXIV Maratona de Programação.</p>
-          </blockquote>
-        </div>
-
-        <div class="card-header">
-          <h3>20 de setembro</h3>
-        </div>
-        <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p>Indicação dos classificados para a Final Brasileira.</p>
-          </blockquote>
-        </div>
-
-        <div class="card-header">
-          <h3>8 e 9 de novembro</h3>
-        </div>
-        <div class="card-body">
-          <blockquote class="blockquote mb-0">
-            <p>Final Brasileira da XXIV Maratona de Programação em Campina Grande.</p>
-          </blockquote>
-        </div>
+    <div class="card">
+      <!--INICIO CARD-->
+      <div class="card-header">
+        <!--CARD 1-->
+        <h3>06 de maio</h3>
       </div>
-    </div>
-  </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>As instituições podem se candidatar para sediar a primeira fase da Maratona de Programação. Instituições
+            interessadas devem preencher o formulário de inscrição.</p>
+        </blockquote>
+      </div>
+      <!--FIM CARD 1-->
+
+      <div class="card-header">
+        <!--CARD 2-->
+        <h3>20 de maio</h3>
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>Estarão definidas sedes da Primeira fase da XXIV Maratona de Programação, assim como as regiões geográficas
+            atendidas por cada sede.</p>
+        </blockquote>
+      </div>
+      <!--FIM CARD 2-->
+
+      <div class="card-header">
+        <!--CARD 3-->
+        <h3>22 de julho</h3>
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>Prazo para pagamento com maior desconto da taxa de inscrição na Maratona (veja a página das inscrições para
+            mais detalhes).</p>
+        </blockquote>
+      </div>
+      <!--FIM CARD 3-->
+
+      <div class="card-header">
+        <!--CARD 4-->
+        <h3>23 agosto</h3>
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>O coach deverá completar a inscrição do time, completando os seguintes passos: providenciar o pagamento da
+            taxa de inscrição do time e preencher as informação dos times no site do ICPC.</p>
+        </blockquote>
+      </div>
+      <!--FIM CARD 4-->
+
+      <div class="card-header">
+        <!--CARD 5-->
+        <h3>14 de setembro</h3>
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>Primeira Fase da XXIV Maratona de Programação.</p>
+        </blockquote>
+      </div>
+      <!--FIM CARD 5-->
+
+      <div class="card-header">
+        <!--CARD 6-->
+        <h3>20 de setembro</h3>
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>Indicação dos classificados para a Final Brasileira.</p>
+        </blockquote>
+      </div>
+      <!--FIM CARD 6-->
+
+      <div class="card-header">
+        <!--CARD 7-->
+        <h3>8 e 9 de novembro</h3>
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>Final Brasileira da XXIV Maratona de Programação em Campina Grande.</p>
+        </blockquote>
+      </div>
+      <!--FIM CARD 7-->
+
+    </div> <!-- FIM CARDS -->
+  </main>
 </body>
 
 </html>

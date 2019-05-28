@@ -1,15 +1,47 @@
 <!DOCTYPE html>
-<html style="background-color: #efefef">
+<html>
 
 <head>
 
-  <style>
+  <style type="text/css">
     @import url('https://fonts.googleapis.com/css?family=Poppins:300&display=swap');
     @import url('https://fonts.googleapis.com/css?family=Sintony&display=swap');
+
+    body,
+    div {
+      background-color: #efefef"
+
+    }
+
+    h1,
+    h2,
+    h3,
+    dt {
+      font-family: 'Sintony', sans-serif;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    p,
+    dl {
+      font-family: 'Poppins', sans-serif;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    nav {
+      background-color: #caebf2
+    }
+
+    main {
+      padding: 35px;
+    }
   </style>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Página da Maratona Programação, 2019 - Oeste do Pará">
+  <meta name="keywords" content="Maratona de Programação, Oeste do Pará, Oriximiná, Programação">
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -30,12 +62,8 @@
 
 <body>
 
-  <!-- Barra de Navegação -->
-
-  <!-- Barra de Navegação -->
-
-  <nav class="navbar navbar-expand-lg navbar-light "
-    style="background-color: #caebf2; font-family: 'Sintony',sans-serif">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <!-- NAVBAR -->
     <a class="navbar-brand navbar-text" href="index.html"><b>Maratona 2019</b></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,87 +81,82 @@
           <a class="nav-link" href="datas.html">Datas Importantes</a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" href="https://www.facebook.com/maratonaorixi/" target="_blank"><img style="height: 25px; width:25px" src="imagens/icon.png" alt="Facebook icone."/></a>
-          </li>
+          <a class="nav-link" href="https://www.facebook.com/maratonaorixi/" target="_blank"><img
+              style="height: 25px; width:25px" src="imagens/icon.png" alt="Link para página do facebook." /></a>
+        </li>
       </ul>
     </div>
   </nav>
-
-  <div class="p-5">
-
-    <h2 style="font-family: 'Sintony',sans-serif"> Dúvidas comuns </h2>
-    <div style="font-family: 'Poppins',sans-serif" class="text-justify">
-      <p> Nessa seção organizamos algumas dúvidas comuns, aqui você irá descobrir como é a competição e quais os
-        requisitos para participar. Boa leitura. =D</p>
-
-      <dl>
-        <dt>Como é o concurso?</dt>
-
-        <dd>
-          Muito simples!
-
-          Em cada uma das fases da Maratona de Programação os times receberão uma prova com diversos problemas que
-          devem ser resolvidos durante 5 horas de competição.
-          Os problemas deverão ser resolvidos em alguma das linguagens de programação disponíveis (*C, C++, python,
-          Java ou kotlin).
-
-          Os times poderão resolver um problema da prova em uma linguagem de programação e um outro problema em outra
-          linguagem, sem qualquer prejuízo.
-
-          O time que conseguir resolver o maior número de problemas é declarado o vencedor.
-          Fácil, não? Está esperando o que para se inscrever?
-        </dd>
-
-        <dt>Como são os times?</dt>
-
-        <dd>
-          Cada time é composto por um treinador, três alunos e, no máximo, um reserva. Uma mesma instituição pode ter
-          vários times participantes da primeira fase do concurso.
-        </dd>
-
-        <dt>É possivel acessar a internet durante a competição?</dt>
-
-        <dd>
-          Para a implementação os times terão à sua disposição um computador e todo o material escrito que desejarem.
-          Entretanto, não poderão fazer uso de material armazenado em meio digital ou ter acesso à Internet durante a
-          competição.
-        </dd>
+  <!--FIM NAVBAR-->
 
 
-        <dt>Quem pode participar?</dt>
-        <dd>
-          <ul>
-            <li>
-              ser aluno de curso superior da área de computação e afins;
-            </li>
-            <li>
-              ter participado de no máximo uma final mundial do ICPC;
-            </li>
-            <li>
-              ter participado de no máximo 4 Maratonas de Programação;
-            </li>
-            <li> deve ter iniciado seus estudos universitários no ano de 2015 ou anos posteriores (a contar do
-              início do primeiro curso universitário do aluno, mesmo que não tenha completado este curso) OU ou
-              ter nascido em 1996 ou anos posteriores.
-            </li>
-          </ul>
-          Assim, por exemplo, se você iniciou seu primeiro curso superior em 2018, pode participar, mesmo que tenha
-          nascido em 1994. Outro exemplo, se você nasceu em 1996 pode participar, mesmo tendo iniciado sua graduação
-          em 2013.
-        </dd>
-        <dt>Quais cursos podem participar?</dt>
-        <dd>
-          O concurso se destina a alunos de instituições superiores tipicamente da área de computação (Ciência da
-          Computação, Engenharia de Computação, Sistemas de Informação, etc) e áreas afins (Matemática, Física e
-          Engenharia). Não há impedimentos à participação de alunos de outros cursos.
-        </dd>
+  <main>
 
-      </dl>
+    <h2> Dúvidas comuns </h2>
 
-      <p> Lembrando que essa é uma página local, para informações apronfundadas consulte o <a
-          href="http://maratona.ime.usp.br/index19.html"> site oficial da maratona </a>. </p>
-    </div>
-  </div>
+    <p> Nessa seção organizamos algumas dúvidas comuns, aqui você irá descobrir como é a competição e quais os
+      requisitos para participar. Boa leitura. =D</p>
+    <dl>
+      <dt>Como é o concurso?</dt>
+      <dd>
+        Muito simples!
+
+        Em cada uma das fases da Maratona de Programação os times receberão uma prova com diversos problemas que
+        devem ser resolvidos durante 5 horas de competição.
+        Os problemas deverão ser resolvidos em alguma das linguagens de programação disponíveis (*C, C++, python,
+        Java ou kotlin).
+
+        Os times poderão resolver um problema da prova em uma linguagem de programação e um outro problema em outra
+        linguagem, sem qualquer prejuízo.
+
+        O time que conseguir resolver o maior número de problemas é declarado o vencedor.
+        Fácil, não? Está esperando o que para se inscrever?
+      </dd>
+      <dt>Como são os times?</dt>
+      <dd>
+        Cada time é composto por um treinador, três alunos e, no máximo, um reserva. Uma mesma instituição pode ter
+        vários times participantes da primeira fase do concurso.
+      </dd>
+      <dt>É possivel acessar a internet durante a competição?</dt>
+      <dd>
+        Para a implementação os times terão à sua disposição um computador e todo o material escrito que desejarem.
+        Entretanto, não poderão fazer uso de material armazenado em meio digital ou ter acesso à Internet durante a
+        competição.
+      </dd>
+      <dt>Quem pode participar?</dt>
+      <dd>
+        <ul>
+          <li>
+            ser aluno de curso superior da área de computação e afins;
+          </li>
+          <li>
+            ter participado de no máximo uma final mundial do ICPC;
+          </li>
+          <li>
+            ter participado de no máximo 4 Maratonas de Programação;
+          </li>
+          <li> deve ter iniciado seus estudos universitários no ano de 2015 ou anos posteriores (a contar do
+            início do primeiro curso universitário do aluno, mesmo que não tenha completado este curso) OU ou
+            ter nascido em 1996 ou anos posteriores.
+          </li>
+        </ul>
+        Assim, por exemplo, se você iniciou seu primeiro curso superior em 2018, pode participar, mesmo que tenha
+        nascido em 1994. Outro exemplo, se você nasceu em 1996 pode participar, mesmo tendo iniciado sua graduação
+        em 2013.
+      </dd>
+      <dt>Quais cursos podem participar?</dt>
+      <dd>
+        O concurso se destina a alunos de instituições superiores tipicamente da área de computação (Ciência da
+        Computação, Engenharia de Computação, Sistemas de Informação, etc) e áreas afins (Matemática, Física e
+        Engenharia). Não há impedimentos à participação de alunos de outros cursos.
+      </dd>
+
+    </dl>
+
+    <p> Lembrando que essa é uma página local, para informações apronfundadas consulte o <a
+        href="http://maratona.ime.usp.br/index19.html"> site oficial da maratona </a>. </p>
+
+  </main>
 </body>
 
 </html>
